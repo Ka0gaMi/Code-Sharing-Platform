@@ -1,0 +1,18 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    class Solution {
+        ProductDTO convertProductToDTO(Product product) {
+            //your code
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/25622#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Thu, 02 Mar 2023 19:27:44 UTC"
+record: -1
+submission_language: java17

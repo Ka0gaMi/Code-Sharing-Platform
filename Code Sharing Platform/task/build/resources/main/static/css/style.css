@@ -1,0 +1,11 @@
+span#load_date {
+    margin: 0;
+    color: green;
+}
+
+pre#code_snippet {
+    border: 2px solid black;
+    padding: 2px;
+    background-color: rgb(224, 224, 224);
+    margin: 0;
+}

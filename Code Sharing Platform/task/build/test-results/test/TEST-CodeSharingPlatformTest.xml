@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CodeSharingPlatformTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-05T00:36:01" hostname="Agapes-MacBook-Pro.local" time="30.137">
+  <properties/>
+  <testcase name="start" classname="CodeSharingPlatformTest" time="30.137"/>
+  <system-out><![CDATA[?[1;31m
+Start test 1?[0m
+?[0;34m
+?[0m?[0;34m  .   ____          _            __ _ _
+?[0m?[0;34m /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+?[0m?[0;34m( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+?[0m?[0;34m \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+?[0m?[0;34m  '  |____| .__|_| |_|_| |_\__, | / / / /
+?[0m?[0;34m =========|_|==============|___/=/_/_/_/
+?[0m?[0;34m :: Spring Boot ::                (v2.5.6)
+?[0m?[0;34m
+?[0m?[0;34m2023-03-05 02:36:01.962  INFO 57506 --- [    Test worker] platform.CodeSharingPlatform             : Starting CodeSharingPlatform using Java 17.0.5 on Agapes-MacBook-Pro.local with PID 57506 (started by Kornelijus in /Users/Kornelijus/IdeaProjects/Code Sharing Platform/Code Sharing Platform/task)
+?[0m?[0;34m2023-03-05 02:36:01.963  INFO 57506 --- [    Test worker] platform.CodeSharingPlatform             : No active profile set, falling back to default profiles: default
+?[0m?[0;34m2023-03-05 02:36:02.356  INFO 57506 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+?[0m?[0;34m2023-03-05 02:36:02.377  INFO 57506 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 1 JPA repository interfaces.
+?[0m?[0;34m2023-03-05 02:36:02.670  INFO 57506 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8889 (http)
+?[0m?[0;34m2023-03-05 02:36:02.677  INFO 57506 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+?[0m?[0;34m2023-03-05 02:36:02.677  INFO 57506 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+?[0m?[0;34m2023-03-05 02:36:02.726  INFO 57506 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+?[0m?[0;34m2023-03-05 02:36:02.726  INFO 57506 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 744 ms
+?[0m?[0;34m2023-03-05 02:36:02.783  INFO 57506 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+?[0m?[0;34m2023-03-05 02:36:02.867  INFO 57506 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+?[0m?[0;34m2023-03-05 02:36:02.870  INFO 57506 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:../snippets'
+?[0m?[0;34m2023-03-05 02:36:02.959  INFO 57506 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+?[0m?[0;34m2023-03-05 02:36:02.992  INFO 57506 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+?[0m?[0;34m2023-03-05 02:36:03.075  INFO 57506 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+?[0m?[0;34m2023-03-05 02:36:03.124  INFO 57506 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+?[0m?[0;34m2023-03-05 02:36:03.398  INFO 57506 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+?[0m?[0;34m2023-03-05 02:36:03.402  INFO 57506 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+?[0m?[0;34m2023-03-05 02:36:03.575  WARN 57506 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+?[0m?[0;34m2023-03-05 02:36:03.873  INFO 57506 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+?[0m?[0;34m2023-03-05 02:36:03.890  INFO 57506 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8889 (http) with context path ''
+?[0m?[0;34m2023-03-05 02:36:03.903  INFO 57506 --- [    Test worker] platform.CodeSharingPlatform             : Started CodeSharingPlatform in 2.25 seconds (JVM running for 2.682)
+?[0;34m2023-03-05 02:36:04.099  INFO 57506 --- [nio-8889-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+?[0m?[0;34m2023-03-05 02:36:04.099  INFO 57506 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+?[0m?[0;34m2023-03-05 02:36:04.100  INFO 57506 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+?[0m?[1;31m
+Start test 2?[0m
+?[1;31m
+Start test 3?[0m
+?[1;31m
+Start test 4?[0m
+?[1;31m
+Start test 5?[0m
+?[1;31m
+Start test 6?[0m
+?[1;31m
+Start test 7?[0m
+?[1;31m
+Start test 8?[0m
+?[1;31m
+Start test 9?[0m
+?[1;31m
+Start test 10?[0m
+?[1;31m
+Start test 11?[0m
+?[1;31m
+Start test 12?[0m
+?[1;31m
+Start test 13?[0m
+?[1;31m
+Start test 14?[0m
+?[1;31m
+Start test 15?[0m
+?[1;31m
+Start test 16?[0m
+?[1;31m
+Start test 17?[0m
+?[1;31m
+Start test 18?[0m
+?[1;31m
+Start test 19?[0m
+?[1;31m
+Start test 20?[0m
+?[1;31m
+Start test 21?[0m
+?[1;31m
+Start test 22?[0m
+?[1;31m
+Start test 23?[0m
+?[1;31m
+Start test 24?[0m
+?[1;31m
+Start test 25?[0m
+?[1;31m
+Start test 26?[0m
+?[1;31m
+Start test 27?[0m
+?[1;31m
+Start test 28?[0m
+?[1;31m
+Start test 29?[0m
+?[1;31m
+Start test 30?[0m
+?[1;31m
+Start test 31?[0m
+?[1;31m
+Start test 32?[0m
+?[1;31m
+Start test 33?[0m
+?[1;31m
+Start test 34?[0m
+?[1;31m
+Start test 35?[0m
+?[1;31m
+Start test 36?[0m
+?[1;31m
+Start test 37?[0m
+?[1;31m
+Start test 38?[0m
+?[1;31m
+Start test 39?[0m
+?[1;31m
+Start test 40?[0m
+?[1;31m
+Start test 41?[0m
+?[1;31m
+Start test 42?[0m
+?[1;31m
+Start test 43?[0m
+?[1;31m
+Start test 44?[0m
+?[1;31m
+Start test 45?[0m
+?[1;31m
+Start test 46?[0m
+?[1;31m
+Start test 47?[0m
+?[1;31m
+Start test 48?[0m
+?[1;31m
+Start test 49?[0m
+?[1;31m
+Start test 50?[0m
+?[1;31m
+Start test 51?[0m
+?[1;31m
+Start test 52?[0m
+?[1;31m
+Start test 53?[0m
+?[1;31m
+Start test 54?[0m
+?[1;31m
+Start test 55?[0m
+?[1;31m
+Start test 56?[0m
+?[0;34m2023-03-05 02:36:05.264  INFO 57506 --- [       Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+?[0m?[0;34m2023-03-05 02:36:05.266  INFO 57506 --- [       Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+?[0m?[0;34m2023-03-05 02:36:05.306  INFO 57506 --- [       Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+?[0;34m
+?[0m?[0;34m  .   ____          _            __ _ _
+?[0m?[0;34m /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+?[0m?[0;34m( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+?[0m?[0;34m \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+?[0m?[0;34m  '  |____| .__|_| |_|_| |_\__, | / / / /
+?[0m?[0;34m =========|_|==============|___/=/_/_/_/
+?[0m?[0;34m :: Spring Boot ::                (v2.5.6)
+?[0m?[0;34m
+?[0m?[0;34m2023-03-05 02:36:15.164  INFO 57506 --- [    Test worker] platform.CodeSharingPlatform             : Starting CodeSharingPlatform using Java 17.0.5 on Agapes-MacBook-Pro.local with PID 57506 (started by Kornelijus in /Users/Kornelijus/IdeaProjects/Code Sharing Platform/Code Sharing Platform/task)
+?[0m?[0;34m2023-03-05 02:36:15.164  INFO 57506 --- [    Test worker] platform.CodeSharingPlatform             : No active profile set, falling back to default profiles: default
+?[0m?[0;34m2023-03-05 02:36:15.277  INFO 57506 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+?[0m?[0;34m2023-03-05 02:36:15.279  INFO 57506 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 1 JPA repository interfaces.
+?[0m?[0;34m2023-03-05 02:36:15.309  INFO 57506 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8889 (http)
+?[0m?[0;34m2023-03-05 02:36:15.309  INFO 57506 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+?[0m?[0;34m2023-03-05 02:36:15.309  INFO 57506 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+?[0m?[0;34m2023-03-05 02:36:15.318  INFO 57506 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+?[0m?[0;34m2023-03-05 02:36:15.318  INFO 57506 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 153 ms
+?[0m?[0;34m2023-03-05 02:36:15.333  INFO 57506 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+?[0m?[0;34m2023-03-05 02:36:15.336  INFO 57506 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+?[0m?[0;34m2023-03-05 02:36:15.337  INFO 57506 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:../snippets'
+?[0m?[0;34m2023-03-05 02:36:15.355  INFO 57506 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+?[0m?[0;34m2023-03-05 02:36:15.357  INFO 57506 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+?[0m?[0;34m2023-03-05 02:36:15.379  INFO 57506 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+?[0m?[0;34m2023-03-05 02:36:15.379  INFO 57506 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+?[0m?[0;34m2023-03-05 02:36:15.414  WARN 57506 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+?[0m?[0;34m2023-03-05 02:36:15.479  INFO 57506 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+?[0m?[0;34m2023-03-05 02:36:15.485  INFO 57506 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8889 (http) with context path ''
+?[0m?[0;34m2023-03-05 02:36:15.488  INFO 57506 --- [    Test worker] platform.CodeSharingPlatform             : Started CodeSharingPlatform in 0.344 seconds (JVM running for 14.267)
+?[0m?[1;31m
+Start test 57?[0m
+?[0;34m2023-03-05 02:36:15.496  INFO 57506 --- [nio-8889-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+?[0m?[0;34m2023-03-05 02:36:15.496  INFO 57506 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+?[0m?[0;34m2023-03-05 02:36:15.496  INFO 57506 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+?[1;31m
+Start test 58?[0m
+?[1;31m
+Start test 59?[0m
+?[1;31m
+Start test 60?[0m
+?[1;31m
+Start test 61?[0m
+?[1;31m
+Start test 62?[0m
+?[1;31m
+Start test 63?[0m
+?[1;31m
+Start test 64?[0m
+?[1;31m
+Start test 65?[0m
+?[1;31m
+Start test 66?[0m
+?[1;31m
+Start test 67?[0m
+?[1;31m
+Start test 68?[0m
+?[1;31m
+Start test 69?[0m
+?[1;31m
+Start test 70?[0m
+?[1;31m
+Start test 71?[0m
+?[1;31m
+Start test 72?[0m
+?[1;31m
+Start test 73?[0m
+?[1;31m
+Start test 74?[0m
+?[1;31m
+Start test 75?[0m
+?[1;31m
+Start test 76?[0m
+?[1;31m
+Start test 77?[0m
+?[1;31m
+Start test 78?[0m
+?[1;31m
+Start test 79?[0m
+?[1;31m
+Start test 80?[0m
+?[1;31m
+Start test 81?[0m
+?[1;31m
+Start test 82?[0m
+?[1;31m
+Start test 83?[0m
+?[1;31m
+Start test 84?[0m
+?[1;31m
+Start test 85?[0m
+?[1;31m
+Start test 86?[0m
+?[1;31m
+Start test 87?[0m
+?[1;31m
+Start test 88?[0m
+?[1;31m
+Start test 89?[0m
+?[1;31m
+Start test 90?[0m
+?[1;31m
+Start test 91?[0m
+?[1;31m
+Start test 92?[0m
+?[1;31m
+Start test 93?[0m
+?[1;31m
+Start test 94?[0m
+?[1;31m
+Start test 95?[0m
+?[1;31m
+Start test 96?[0m
+?[1;31m
+Start test 97?[0m
+?[1;31m
+Start test 98?[0m
+?[1;31m
+Start test 99?[0m
+?[1;31m
+Start test 100?[0m
+?[1;31m
+Start test 101?[0m
+?[1;31m
+Start test 102?[0m
+?[1;31m
+Start test 103?[0m
+?[0;34m2023-03-05 02:36:21.383  INFO 57506 --- [      Thread-10] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+?[0m?[0;34m2023-03-05 02:36:21.384  INFO 57506 --- [      Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+?[0m?[0;34m2023-03-05 02:36:21.423  INFO 57506 --- [      Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+?[0;34m
+?[0m?[0;34m  .   ____          _            __ _ _
+?[0m?[0;34m /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+?[0m?[0;34m( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+?[0m?[0;34m \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+?[0m?[0;34m  '  |____| .__|_| |_|_| |_\__, | / / / /
+?[0m?[0;34m =========|_|==============|___/=/_/_/_/
+?[0m?[0;34m :: Spring Boot ::                (v2.5.6)
+?[0m?[0;34m
+?[0m?[0;34m2023-03-05 02:36:31.267  INFO 57506 --- [    Test worker] platform.CodeSharingPlatform             : Starting CodeSharingPlatform using Java 17.0.5 on Agapes-MacBook-Pro.local with PID 57506 (started by Kornelijus in /Users/Kornelijus/IdeaProjects/Code Sharing Platform/Code Sharing Platform/task)
+?[0m?[0;34m2023-03-05 02:36:31.268  INFO 57506 --- [    Test worker] platform.CodeSharingPlatform             : No active profile set, falling back to default profiles: default
+?[0m?[0;34m2023-03-05 02:36:31.356  INFO 57506 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+?[0m?[0;34m2023-03-05 02:36:31.358  INFO 57506 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 1 JPA repository interfaces.
+?[0m?[0;34m2023-03-05 02:36:31.384  INFO 57506 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8889 (http)
+?[0m?[0;34m2023-03-05 02:36:31.385  INFO 57506 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+?[0m?[0;34m2023-03-05 02:36:31.385  INFO 57506 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+?[0m?[0;34m2023-03-05 02:36:31.394  INFO 57506 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+?[0m?[0;34m2023-03-05 02:36:31.394  INFO 57506 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 125 ms
+?[0m?[0;34m2023-03-05 02:36:31.406  INFO 57506 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+?[0m?[0;34m2023-03-05 02:36:31.409  INFO 57506 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+?[0m?[0;34m2023-03-05 02:36:31.410  INFO 57506 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:../snippets'
+?[0m?[0;34m2023-03-05 02:36:31.423  INFO 57506 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+?[0m?[0;34m2023-03-05 02:36:31.425  INFO 57506 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+?[0m?[0;34m2023-03-05 02:36:31.444  INFO 57506 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+?[0m?[0;34m2023-03-05 02:36:31.445  INFO 57506 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+?[0m?[0;34m2023-03-05 02:36:31.470  WARN 57506 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+?[0m?[0;34m2023-03-05 02:36:31.528  INFO 57506 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+?[0m?[0;34m2023-03-05 02:36:31.534  INFO 57506 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8889 (http) with context path ''
+?[0m?[0;34m2023-03-05 02:36:31.536  INFO 57506 --- [    Test worker] platform.CodeSharingPlatform             : Started CodeSharingPlatform in 0.28 seconds (JVM running for 30.315)
+?[0m?[1;31m
+Start test 104?[0m
+?[1;31m
+Start test 105?[0m
+?[0;34m2023-03-05 02:36:31.542  INFO 57506 --- [nio-8889-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+?[0m?[0;34m2023-03-05 02:36:31.543  INFO 57506 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+?[0m?[0;34m2023-03-05 02:36:31.543  INFO 57506 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+?[1;31m
+Start test 106?[0m
+?[1;31m
+Start test 107?[0m
+?[1;31m
+Start test 108?[0m
+?[1;31m
+Start test 109?[0m
+?[1;31m
+Start test 110?[0m
+?[1;31m
+Start test 111?[0m
+?[1;31m
+Start test 112?[0m
+?[1;31m
+Start test 113?[0m
+?[1;31m
+Start test 114?[0m
+?[1;31m
+Start test 115?[0m
+?[1;31m
+Start test 116?[0m
+?[1;31m
+Start test 117?[0m
+?[1;31m
+Start test 118?[0m
+?[1;31m
+Start test 119?[0m
+]]></system-out>
+  <system-err><![CDATA[?[0;34mException in thread "Thread-7" org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties': Could not bind properties to 'DataSourceProperties' : prefix=spring.datasource, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is java.lang.IllegalStateException: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@73f6ffb1 has been closed already
+?[0m?[0;34m	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.bind(ConfigurationPropertiesBindingPostProcessor.java:92)
+?[0m?[0;34m	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.postProcessBeforeInitialization(ConfigurationPropertiesBindingPostProcessor.java:78)
+?[0m?[0;34m	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:440)
+?[0m?[0;34m	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796)
+?[0m?[0;34m	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+?[0m?[0;34m	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+?[0m?[0;34m	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+?[0m?[0;34m	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+?[0m?[0;34m	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+?[0m?[0;34m	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+?[0m?[0;34m	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+?[0m?[0;34m	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+?[0m?[0;34m	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+?[0m?[0;34m	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+?[0m?[0;34m	at org.springframework.beans.factory.support.ConstructorResolver.resolvePreparedArguments(ConstructorResolver.java:834)
+?[0m?[0;34m	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:449)
+?[0m?[0;34m	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+?[0m?[0;34m	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+?[0m?[0;34m	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+?[0m?[0;34m	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+?[0m?[0;34m	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+?[0m?[0;34m	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+?[0m?[0;34m	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+?[0m?[0;34m	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+?[0m?[0;34m	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+?[0m?[0;34m	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+?[0m?[0;34m	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+?[0m?[0;34m	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+?[0m?[0;34m	at org.springframework.beans.factory.support.ConstructorResolver.resolvePreparedArguments(ConstructorResolver.java:834)
+?[0m?[0;34m	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:449)
+?[0m?[0;34m	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+?[0m?[0;34m	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+?[0m?[0;34m	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+?[0m?[0;34m	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+?[0m?[0;34m	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+?[0m?[0;34m	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+?[0m?[0;34m	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+?[0m?[0;34m	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+?[0m?[0;34m	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+?[0m?[0;34m	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+?[0m?[0;34m	at org.springframework.beans.factory.support.DefaultListableBeanFactory$1.orderedStream(DefaultListableBeanFactory.java:481)
+?[0m?[0;34m	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.detectPersistenceExceptionTranslators(PersistenceExceptionTranslationInterceptor.java:167)
+?[0m?[0;34m	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:149)
+?[0m?[0;34m	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+?[0m?[0;34m	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174)
+?[0m?[0;34m	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+?[0m?[0;34m	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+?[0m?[0;34m	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+?[0m?[0;34m	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+?[0m?[0;34m	at jdk.proxy3/jdk.proxy3.$Proxy102.save(Unknown Source)
+?[0m?[0;34m	at platform.CodeController.lambda$startCodeTimeDecrementThread$0(CodeController.java:151)
+?[0m?[0;34m	at java.base/java.lang.Thread.run(Thread.java:833)
+?[0m?[0;34mCaused by: java.lang.IllegalStateException: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@73f6ffb1 has been closed already
+?[0m?[0;34m	at org.springframework.context.support.AbstractApplicationContext.assertBeanFactoryActive(AbstractApplicationContext.java:1138)
+?[0m?[0;34m	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1159)
+?[0m?[0;34m	at org.springframework.boot.context.properties.BoundConfigurationProperties.get(BoundConfigurationProperties.java:78)
+?[0m?[0;34m	at org.springframework.boot.context.properties.ConfigurationPropertiesBinder.getHandler(ConfigurationPropertiesBinder.java:134)
+?[0m?[0;34m	at org.springframework.boot.context.properties.ConfigurationPropertiesBinder.getBindHandler(ConfigurationPropertiesBinder.java:115)
+?[0m?[0;34m	at org.springframework.boot.context.properties.ConfigurationPropertiesBinder.bind(ConfigurationPropertiesBinder.java:95)
+?[0m?[0;34m	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.bind(ConfigurationPropertiesBindingPostProcessor.java:89)
+?[0m?[0;34m	... 51 more
+?[0;34mException in thread "Thread-9" org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Unsatisfied dependency expressed through method 'dataSource' parameter 0; nested exception is org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties': Could not bind properties to 'DataSourceProperties' : prefix=spring.datasource, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is java.lang.IllegalStateException: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@73f6ffb1 has been closed already
+?[0m?[0;34m	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+?[0m?[0;34m	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:541)
+?[0m?[0;34m	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+?[0m?[0;34m	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+?[0m?[0;34m	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+?[0m?[0;34m	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+?[0m?[0;34m	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+?[0m?[0;34m	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+?[0m?[0;34m	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+?[0m?[0;34m	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+?[0m?[0;34m	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+?[0m?[0;34m	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+?[0m?[0;34m	at org.springframework.beans.factory.support.DefaultListableBeanFactory$1.orderedStream(DefaultListableBeanFactory.java:481)
+?[0m?[0;34m	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.detectPersistenceExceptionTranslators(PersistenceExceptionTranslationInterceptor.java:167)
+?[0m?[0;34m	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:149)
+?[0m?[0;34m	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+?[0m?[0;34m	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174)
+?[0m?[0;34m	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+?[0m?[0;34m	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+?[0m?[0;34m	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+?[0m?[0;34m	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+?[0m?[0;34m	at jdk.proxy3/jdk.proxy3.$Proxy102.save(Unknown Source)
+?[0m?[0;34m	at platform.CodeController.lambda$startCodeTimeDecrementThread$0(CodeController.java:151)
+?[0m?[0;34m	at java.base/java.lang.Thread.run(Thread.java:833)
+?[0m?[0;34mCaused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Unsatisfied dependency expressed through method 'dataSource' parameter 0; nested exception is org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties': Could not bind properties to 'DataSourceProperties' : prefix=spring.datasource, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is java.lang.IllegalStateException: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@73f6ffb1 has been closed already
+?[0m?[0;34m	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+?[0m?[0;34m	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:541)
+?[0m?[0;34m	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+?[0m?[0;34m	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+?[0m?[0;34m	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+?[0m?[0;34m	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+?[0m?[0;34m	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+?[0m?[0;34m	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+?[0m?[0;34m	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+?[0m?[0;34m	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+?[0m?[0;34m	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+?[0m?[0;34m	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+?[0m?[0;34m	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+?[0m?[0;34m	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+?[0m?[0;34m	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+?[0m?[0;34m	... 23 more
+?[0m?[0;34mCaused by: org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties': Could not bind properties to 'DataSourceProperties' : prefix=spring.datasource, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is java.lang.IllegalStateException: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@73f6ffb1 has been closed already
+?[0m?[0;34m	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.bind(ConfigurationPropertiesBindingPostProcessor.java:92)
+?[0m?[0;34m	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.postProcessBeforeInitialization(ConfigurationPropertiesBindingPostProcessor.java:78)
+?[0m?[0;34m	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:440)
+?[0m?[0;34m	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796)
+?[0m?[0;34m	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+?[0m?[0;34m	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+?[0m?[0;34m	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+?[0m?[0;34m	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+?[0m?[0;34m	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+?[0m?[0;34m	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+?[0m?[0;34m	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+?[0m?[0;34m	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+?[0m?[0;34m	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+?[0m?[0;34m	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+?[0m?[0;34m	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+?[0m?[0;34m	... 37 more
+?[0m?[0;34mCaused by: java.lang.IllegalStateException: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@73f6ffb1 has been closed already
+?[0m?[0;34m	at org.springframework.context.support.AbstractApplicationContext.assertBeanFactoryActive(AbstractApplicationContext.java:1138)
+?[0m?[0;34m	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1159)
+?[0m?[0;34m	at org.springframework.boot.context.properties.BoundConfigurationProperties.get(BoundConfigurationProperties.java:78)
+?[0m?[0;34m	at org.springframework.boot.context.properties.ConfigurationPropertiesBinder.getHandler(ConfigurationPropertiesBinder.java:134)
+?[0m?[0;34m	at org.springframework.boot.context.properties.ConfigurationPropertiesBinder.getBindHandler(ConfigurationPropertiesBinder.java:115)
+?[0m?[0;34m	at org.springframework.boot.context.properties.ConfigurationPropertiesBinder.bind(ConfigurationPropertiesBinder.java:95)
+?[0m?[0;34m	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.bind(ConfigurationPropertiesBindingPostProcessor.java:89)
+?[0m?[0;34m	... 51 more
+]]></system-err>
+</testsuite>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Code Sharing Platform/task" />
+            <option value="$PROJECT_DIR$/Code Sharing Platform/task/build/classes/java" />
+            <option value="$PROJECT_DIR$/Code Sharing Platform/task/build/generated/sources/annotationProcessor/java" />
+            <option value="$PROJECT_DIR$/Code Sharing Platform/task/build/generated/sources/headers/java" />
+            <option value="$PROJECT_DIR$/Code Sharing Platform/task/build/reports/tests" />
+            <option value="$PROJECT_DIR$/Code Sharing Platform/task/build/test-results" />
+            <option value="$PROJECT_DIR$/Code Sharing Platform/task/build/tmp" />
+            <option value="$PROJECT_DIR$/Topics/Custom threads/Message notifier as a thread" />
+            <option value="$PROJECT_DIR$/Topics/Custom threads/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Data Transfer Object in Spring/Application" />
+            <option value="$PROJECT_DIR$/Topics/Data Transfer Object in Spring/Converting a Java class to a DTO implementation" />
+            <option value="$PROJECT_DIR$/Topics/Data Transfer Object in Spring/The purposes of ModelMapper" />
+            <option value="$PROJECT_DIR$/Topics/Data Transfer Object in Spring/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Generic methods/Check for null" />
+            <option value="$PROJECT_DIR$/Topics/Generic methods/Class type parameters" />
+            <option value="$PROJECT_DIR$/Topics/Generic methods/The first element" />
+            <option value="$PROJECT_DIR$/Topics/Generic methods/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Inner classes/Improve your vehicle" />
+            <option value="$PROJECT_DIR$/Topics/Inner classes/New Inner class" />
+            <option value="$PROJECT_DIR$/Topics/Inner classes/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Inner classes/Why do we need inner classes" />
+            <option value="$PROJECT_DIR$/Topics/Instant/The Instant to a long" />
+            <option value="$PROJECT_DIR$/Topics/Instant/Theory" />
+            <option value="$PROJECT_DIR$/Topics/LocalDate/2 weeks after" />
+            <option value="$PROJECT_DIR$/Topics/LocalDate/Similar date" />
+            <option value="$PROJECT_DIR$/Topics/LocalDate/Theory" />
+            <option value="$PROJECT_DIR$/Topics/LocalDateTime/Add 11 hours and print the date" />
+            <option value="$PROJECT_DIR$/Topics/LocalDateTime/Subtracting hours and adding minutes" />
+            <option value="$PROJECT_DIR$/Topics/LocalDateTime/The passed hours since the beginning of year" />
+            <option value="$PROJECT_DIR$/Topics/LocalDateTime/Theory" />
+            <option value="$PROJECT_DIR$/Topics/LocalTime/Return time without seconds" />
+            <option value="$PROJECT_DIR$/Topics/LocalTime/Same time" />
+            <option value="$PROJECT_DIR$/Topics/LocalTime/Theory" />
+            <option value="$PROJECT_DIR$/Topics/LocalTime/Working with time" />
+            <option value="$PROJECT_DIR$/util" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
